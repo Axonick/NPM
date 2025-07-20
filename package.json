@@ -1,0 +1,25 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Axonick/NPM#readme",
+  "bugs": {
+    "url": "https://github.com/Axonick/NPM/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Axonick/NPM.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "print": "node index.js",
+    "start": "http-server -p 3004"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "lodash": "^4.17.21"
+  }
+}

@@ -1,0 +1,41 @@
+Index: index.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.js b/index.js
+--- a/index.js	(revision 66b1b25f66a36a178cf80cc7b82e6e29d5085f2a)
++++ b/index.js	(date 1753019216612)
+@@ -1,0 +1,1 @@
++console.log('Привет, это точка входа в приложение!')
+\ No newline at end of file
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!doctype html>\r\n<html lang=\"en\">\r\n<head>\r\n  <meta charset=\"UTF-8\">\r\n  <meta\r\n    name=\"viewport\"\r\n    content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\"\r\n  >\r\n  <meta\r\n    http-equiv=\"X-UA-Compatible\"\r\n    content=\"ie=edge\"\r\n  >\r\n  <title>NPM</title>\r\n</head>\r\n<body>\r\n  \r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision 66b1b25f66a36a178cf80cc7b82e6e29d5085f2a)
++++ b/index.html	(date 1753019547847)
+@@ -13,6 +13,6 @@
+   <title>NPM</title>
+ </head>
+ <body>
+-  
++
+ </body>
+ </html>
+\ No newline at end of file
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+--- a/.gitignore	(revision 66b1b25f66a36a178cf80cc7b82e6e29d5085f2a)
++++ b/.gitignore	(date 1753019925769)
+@@ -1,0 +1,1 @@
++/node_modules
+\ No newline at end of file
